@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" >
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Username"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@id/editusername"
+        android:layout_alignRight="@id/editusername"
+        android:layout_below="@id/editusername"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@id/editusername"
+        android:layout_alignRight="@id/editusername"
+        android:layout_below="@id/editpassword"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/confirmbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.5"
+        android:background="@drawable/sign_button_style"
+        android:text="Sign up"
+        android:textColor="#ffffff"
+        tools:ignore="HardcodedText" >
+    </Button>
+
+</RelativeLayout>
