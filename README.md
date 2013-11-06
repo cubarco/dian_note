@@ -1,1 +1,1 @@
-this is notebook app powered by cube lin
+this is notebook app powered by Cube Lin and Yao Xin
